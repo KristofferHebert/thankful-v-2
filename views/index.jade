@@ -1,0 +1,7 @@
+extends layout
+
+block body
+  main(class="bg {{bg}}")
+    section(class="row")
+      div(ng-view)
+      div {{error}}

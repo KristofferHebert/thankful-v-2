@@ -1,0 +1,19 @@
+$font-size: 1em;
+$line-height: $font-size * 1.5;
+
+$bg: #454857;
+$bg-dark: darken($bg, 5%);
+$font-color: #222;
+$font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$font-weight: normal;
+$font-style: normal;
+
+$primary: #BEE2E7;
+$primary-light: lighten($primary, 10%);
+$primary-dark: darken($primary, 10%);
+$secondary: #4F57AA;
+$alert: #8F002E;
+$success:lighten($primary, 15%);
+
+$width: 43.75em;
+$radius: .5em;

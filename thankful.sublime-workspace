@@ -1,0 +1,1134 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fu",
+				"function"
+			],
+			[
+				"sc",
+				"screen_name"
+			],
+			[
+				"stat",
+				"statuses"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pad",
+				"padding-bottom:   (property)"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"webkit",
+				"-webkit-box-shadow:   (property)"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"i",
+				"inherit  (value)"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"text-tr",
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"guess",
+				"guessPrompt"
+			],
+			[
+				"tranp",
+				"transparent"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"s",
+				"src=  (attribute)"
+			],
+			[
+				"get",
+				"getUrlParam"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"overflow",
+				"overflow:   (property)"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"pt",
+				"padding-top"
+			],
+			[
+				"backgroud-",
+				"background-size"
+			],
+			[
+				"create",
+				"createTodo"
+			],
+			[
+				"json",
+				"jsonp"
+			],
+			[
+				"a",
+				"ajax  (function)"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"function",
+				"  objects with a length property (such as a function's"
+			],
+			[
+				"each",
+				"each  (function)"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"g",
+				"getElementbyId"
+			],
+			[
+				"po",
+				"passport-local"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1371,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/api.js",
+			"settings":
+			{
+				"buffer_size": 789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/index.js",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 2000,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sft",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Map to Remote…"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packg",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"PACKIN	",
+				"Package Control: Install Package"
+			],
+			[
+				"pA",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 423.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/khebert/Sites/thankful/public/js/data.js",
+		"/Users/khebert/Sites/passport-twitter/examples/signin/app.js",
+		"/Users/khebert/Sites/thankful/public/js/controllers.js",
+		"/Users/khebert/Sites/thankful/views/partials/home.jade",
+		"/Users/khebert/Sites/thankful/views/partials/user.jade",
+		"/Users/khebert/Sites/thankful/views/partials/login.jade",
+		"/Users/khebert/Sites/thankful/routes/api.js",
+		"/Users/khebert/Sites/thankful/public/js/app.js",
+		"/Users/khebert/Sites/thankful/public/css/app.css",
+		"/Users/khebert/Sites/thankful/views/index.jade",
+		"/Users/khebert/Sites/thankful/public/js/services.js",
+		"/Users/khebert/Sites/thankful/views/layout.jade",
+		"/Users/khebert/Sites/thankful/node_modules/angular-hotkeys/src/hotkeys.js",
+		"/Users/khebert/Sites/thankful/app.js",
+		"/Users/khebert/Sites/thankful/public/js/directives.js",
+		"/Users/khebert/Sites/thankful/views/partials/alltweets.jade",
+		"/Users/khebert/Sites/node/airline/routes/index.js",
+		"/Users/khebert/Sites/node/flight/node_modules/flight/index.js",
+		"/Users/khebert/Sites/node/flight/app.js",
+		"/Users/khebert/Sites/thankful/data/index.js",
+		"/Users/khebert/Sites/node/flight/data/index.js",
+		"/Users/khebert/Sites/thankful/node_modules/twitter-1.1/lib/twitter.js",
+		"/Users/khebert/Sites/thankful/node_modules/twitter-rest/lib/search.js",
+		"/Users/khebert/Sites/thankful/node_modules/twitter-rest-lite/example/server.js",
+		"/Users/khebert/Sites/thankful/node_modules/twitter-rest/README.md",
+		"/Users/khebert/Sites/thankful/node_modules/twitter-rest/index.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/sftp-config.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/scss/style.scss",
+		"/Users/khebert/Sites/thankful/package.json",
+		"/Users/khebert/Downloads/php-to-pages/php-on-pages.php",
+		"/Users/khebert/Library/Application Support/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/Gruntfile.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/overtherainbow.sublime-project",
+		"/Users/khebert/Downloads/infusionsoftwebformcode-free chapters/webFormHtmlCode.html",
+		"/Users/khebert/Downloads/Infusionsoft code for page/webFormBarebones.html",
+		"/Users/khebert/Downloads/Infusionsoft code for page/webFormJavascriptSnippet.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/scss/_settings.scss",
+		"/Users/khebert/Sites/cs-101/deckgame1.html",
+		"/Users/khebert/Downloads/infusionsoftwebformcode-free chapters/webFormJavascriptSnippet.html",
+		"/Users/khebert/Downloads/Infusionsoft code for page/webFormHtmlCode.html",
+		"/Users/khebert/Downloads/infusionsoftwebformcode-free chapters/webFormBarebones.html",
+		"/Users/khebert/Desktop/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/404.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/page-home.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/archive.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-master/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-master/lib/clean.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-master/lib/nav.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/page-full.php",
+		"/Users/khebert/Desktop/guess2.html",
+		"/Users/khebert/Sites/cs-101/deckgame.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-master/css/app.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-master/scss/app.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-master/scss/_settings.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-master/scss/style.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/scss/app.scss",
+		"/Users/khebert/Desktop/guess.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/overtherainbow/wp-content/themes/reverie-child-master/css/app.css",
+		"/Users/khebert/Sites/index.html",
+		"/Users/khebert/Sites/blueskyprojects/SchwartzBrothers/wp-content/themes/SchwartzBrothersRestaurant/restaurant-sass/sass/style.scss",
+		"/Users/khebert/Sites/blueskyprojects/DistantLands/wp-config.php",
+		"/Users/khebert/Sites/blueskyprojects/SchwartzBrothers/wp-content/themes/SchwartzBrothersRestaurant/header-rewards.php",
+		"/Users/khebert/Sites/blueskyprojects/SchwartzBrothers/wp-content/themes/SchwartzBrothersRestaurant/restaurant-sass/stylesheets/style.css",
+		"/Users/khebert/Sites/blueskyprojects/SchwartzBrothers/wp-content/themes/SchwartzBrothersRestaurant/index.php",
+		"/Users/khebert/Sites/blueskyprojects/SchwartzBrothers/wp-content/themes/SchwartzBrothersRestaurant/loop-page.php",
+		"/Users/khebert/Sites/blueskyprojects/SchwartzBrothers/wp-content/themes/SchwartzBrothersRestaurant/functions.php",
+		"/Users/khebert/Downloads/backup-www_schwartzbros_com-2013_08_08-db-9yckvypfm9/db_1.sql",
+		"/Users/khebert/Sites/blueskyprojects/SchwartzBrothers/wp-content/themes/SchwartzBrothersRestaurant/restaurant-sass/sass/_base.scss",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/reverie-child-master/package.json",
+		"/Users/khebert/Sites/blueskyprojects/DistantLands/importbuddy.php",
+		"/Users/khebert/Sites/blueskyprojects/DistantLands/license.txt",
+		"/Users/khebert/Sites/blueskyprojects/DistantLands/wp-content/themes/distantlands/style.css",
+		"/Users/khebert/Desktop/test.xml",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/reverie-child-master/Gruntfile.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/reverie-child-master/node_modules/grunt-contrib-watch/package.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/themes/reverie-child-master/grunt.js",
+		"/Users/khebert/Sites/blueskyprojects/sftp-config.json",
+		"/var/folders/xd/vwv2g4t570562tftf7y49nxc0000gn/T/sublime-sftp-browse-1400888303/mapped/DistantLands/wp-content/themes/distantlands/style.css",
+		"/Users/khebert/Sites/overtherainbowhotairballoonrides.com/sftp-config.json",
+		"/Users/khebert/Sites/overtherainbowhotairballons.com/ftp.json",
+		"/Users/khebert/Sites/hotairballoon.com/sftp-config.json",
+		"/Users/khebert/Sites/overtherainbowhotairballons.com/settings.json",
+		"/Users/khebert/Sites/overtherainbowhotairballons.com/settings",
+		"/Users/khebert/Desktop/style-desktop.css",
+		"/Users/khebert/Desktop/sample-ecommerce-2/index.html",
+		"/Users/khebert/Desktop/sample-ecommerce-2/js/functions.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config.php",
+		"/Users/khebert/Desktop/test.php",
+		"/Users/khebert/Desktop/style4.css",
+		"/Users/khebert/Desktop/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/sample-e-commerce-2/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/sample-e-commerce-2/js/functions.js",
+		"/Users/khebert/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/sample-e-commerce-2/js/functions2.js",
+		"/Users/khebert/Sites/blueskyprojects/style.css",
+		"/Users/khebert/Desktop/sample e-commerce/index.html",
+		"/Users/khebert/Desktop/sample e-commerce/product-page.html",
+		"/Users/khebert/Desktop/js-demo/todo.js",
+		"/Users/khebert/Desktop/sample e-commerce/js/Database.json",
+		"/Users/khebert/Desktop/sample e-commerce/css/main.css",
+		"/Users/khebert/Desktop/sample e-commerce/js/functions.js",
+		"/Users/khebert/Desktop/Audition/Database.json",
+		"/Users/khebert/Desktop/guideline",
+		"/Users/khebert/Desktop/reverie-childtheme/style.css",
+		"/Users/khebert/Downloads/Audition/Database.json",
+		"/Users/khebert/Desktop/reverie-master/style.css",
+		"/Users/khebert/Desktop/reverie-master/css/style.css",
+		"/Users/khebert/Desktop/reverie-master/css/app.css",
+		"/Users/khebert/Desktop/styleb.css",
+		"/Users/khebert/Desktop/test.html",
+		"/Users/khebert/Desktop/test.js",
+		"/Users/khebert/Sites/brunch-example/README.md",
+		"/Users/khebert/Sites/habitcounter/model/user.js",
+		"/Users/khebert/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/khebert/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/khebert/Desktop/text.css",
+		"/Users/khebert/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/khebert/Sites/habitcounter/views/layout.jade",
+		"/Users/khebert/Sites/habitcounter/views/admin.jade",
+		"/Users/khebert/Sites/passport-local/examples/express3-mongoose-rememberme/app.js",
+		"/Users/khebert/Sites/habitcounter/routes/index.js",
+		"/Users/khebert/Sites/habitcounter/app.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logger",
+			"     ",
+			".jpg",
+			"thankful",
+			"api.name",
+			"require",
+			"data",
+			"search_base",
+			"options",
+			"otpions",
+			"0.8",
+			"h2, h3",
+			"-",
+			"hit",
+			"h3",
+			"2em",
+			">Reserve online</a>",
+			"9ec",
+			"ec1fa",
+			"delil",
+			">\n",
+			"top-bar",
+			"45px",
+			"45",
+			"button",
+			"content",
+			"box-shadow",
+			"headings",
+			"backgroun",
+			"divider",
+			"Footer",
+			"button",
+			"border",
+			"hr",
+			"clearfix",
+			"#sidebar",
+			"font-color:",
+			"color: #888",
+			"#888",
+			"sidebar",
+			"footer",
+			"love-reverie",
+			"widget",
+			"border: none;\n",
+			"border: none;\nbackground-color: #eee;",
+			"padding: 1.5rem 1.875rem;",
+			"#eee",
+			"999",
+			"panel999",
+			"panel",
+			"#sidebar",
+			"background-color: #eee",
+			"footer-widget",
+			"widget",
+			"#eee",
+			"panel",
+			" $panel-bg",
+			"$panel-bg",
+			"panel",
+			"#999",
+			"$global-radius",
+			"top-bar-contact-buttons",
+			"button",
+			"45rem",
+			".45rem",
+			"7px",
+			"0.875rem",
+			"button top",
+			"button",
+			"text-transform",
+			"$topbar-bg-color",
+			"$header-font-color",
+			"footer",
+			"navigation",
+			"#333",
+			"#333333",
+			"button",
+			"secondary",
+			"button",
+			"margin-top:",
+			"1em",
+			"size",
+			"video-farm",
+			"150px",
+			"column",
+			"#4C3327",
+			"entry",
+			"visited",
+			"id='promo",
+			"id=promo",
+			"promo",
+			"#promo",
+			"promo",
+			"input_19",
+			"gform",
+			"gform_wrapper_12",
+			"is offering",
+			"Chateau Ste. Michelle",
+			"spazz",
+			"white-",
+			"#headerInside img",
+			"http://74.86.4.227/",
+			"prefix",
+			"jpeg",
+			"jpg",
+			"reset",
+			"em {",
+			"em",
+			"color: #963;",
+			"color: #963;\nfont-weight: bold;",
+			"font-weight: bold;",
+			"page-8",
+			"padding-left: 0",
+			"page-id-8",
+			".page-id-8 #secondary.widget-area",
+			"block",
+			"h1 a",
+			"logo",
+			"http://74.86.4.227",
+			"margin-left: 25px",
+			"240px",
+			"body.home div#page.hfeed div#main.wrapper div.second",
+			"page .flex",
+			"template",
+			"site-content: 15px",
+			"menu-menu-2",
+			"275",
+			"http://74.86.4.227"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"[/accordion]",
+			"[accordion ",
+			"[/acc_item]",
+			"[acc_item ",
+			"accordion"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								356,
+								356
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 25.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/api.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/index.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2000,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								180
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 102.0
+	},
+	"project": "thankful.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/overtherainbowhotairballons.com/overtherainbow.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

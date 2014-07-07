@@ -1,0 +1,10 @@
+section(ng-controller='userPage')
+  ul
+    li(ng-repeat='tweet in data.statuses', ng-show='showUser($index)')
+      p {{tweet.user.description}}
+      a(href="/u/{{tweet.user.screen_name}}")
+        img(ng-src='{{tweet.user.profile_image_url}}')
+      h3 {{tweet.user.name}}
+        span
+          a(href="/u/{{tweet.user.screen_name}}") @{{tweet.user.screen_name}}
+

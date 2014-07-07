@@ -1,0 +1,146 @@
+body {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, header, footer {
+  text-align: center;
+  background: #454857;
+  color: #fff;
+  padding: .5em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #4f57aa;
+}
+a:hover, a:active {
+  color: #99d1d9;
+}
+
+.row {
+  max-width: 43.75em;
+  margin: auto;
+}
+
+.logo {
+  color: #FFF;
+  font-weight: normal;
+  font-size: 1.25em;
+}
+
+.bg {
+  background-size: cover;
+  padding: 10em 0;
+  border-top: 1px solid #3a3c49;
+  border-bottom: 1px solid #3a3c49;
+}
+.bg.one {
+  background-image: url("../images/bg1.jpg");
+}
+.bg.two {
+  background-image: url("../images/bg2.jpg");
+}
+.bg.three {
+  background-image: url("../images/bg3.jpg");
+}
+.bg.four {
+  background-image: url("../images/bg4.jpg");
+}
+
+.button {
+  background-color: #4f57aa;
+  padding: .8em;
+  color: #fff;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  width: 10em;
+  cursor: pointer;
+  display: inline-block;
+}
+.button:hover, .button:active {
+  background-color: #bee2e7;
+  color: #fff;
+}
+.button:active {
+  margin-top: -.1em;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu > li {
+  display: inline;
+}
+
+.home ul, .live ul, .menu {
+  padding-left: 0;
+}
+
+.home li, .live li {
+  padding: 3em;
+  background: #fff;
+  color: #222222;
+  list-style: none;
+  border-radius: 0.5em;
+}
+
+.live {
+  max-height: 40em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.live li {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+footer p a {
+  color: #bee2e7;
+  text-decoration: underline;
+}
+
+.no-space {
+  padding: 0;
+  margin: 0;
+}
+
+.add-space-right {
+  margin-right: 1em;
+}
+
+.add-space-left {
+  margin-right: 1em;
+}
+
+@media (max-width: 600px) {
+  .bg {
+    padding: 4em 0;
+  }
+
+  .add-space-right, .add-space-left {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .button, .button:hover, .button:active {
+    width: 100%;
+    margin-bottom: .1em;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home li, .live li {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}

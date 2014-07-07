@@ -1,0 +1,9 @@
+section(ng-controller='livePage', class="live")
+  ul(class="no-space")
+    li(ng-repeat='tweet in feed')
+      p {{tweet.description}}
+      a(href="/u/{{tweet.user_screen}}")
+        img(ng-src='{{tweet.profile_image_url}}')
+      h4 {{tweet.username}}
+        span
+          a(target="_blank", href="https://twitter.com/{{tweet.user_screen}}") @{{tweet.user_screen}}

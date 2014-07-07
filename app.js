@@ -1,0 +1,96 @@
+
+/**
+ * Module dependencies
+ */
+
+var express = require('express'),
+    io = require('socket.io'),
+    bodyParser = require('body-parser'),
+    methodOverride = require('method-override'),
+    errorHandler = require('errorhandler'),
+    morgan = require('morgan'),
+    routes = require('./routes'),
+    api = require('./routes/api'),
+    http = require('http'),
+    path = require('path')
+
+var app = module.exports = express();
+
+
+/**
+ * Configuration
+ */
+
+// all environments
+app.set('port', process.env.PORT || 3002);
+app.set('views', __dirname + '/views');
+app.set('view engine', 'jade');
+app.use(morgan('dev'));
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+app.use(methodOverride());
+app.use(express.static(path.join(__dirname, 'public')));
+
+var env = process.env.NODE_ENV || 'development';
+
+// development only
+if (env === 'development') {
+  app.use(errorHandler());
+}
+
+// production only
+if (env === 'production') {
+  // TODO
+}
+
+/**
+ * Config Twitter
+ */
+
+var Twit = require('twit'),
+config = require('./config'),
+Twitter = new Twit(config);
+
+/**
+ * Routes
+ */
+
+// serve index and view partials
+app.get('/', routes.index);
+app.get('/partials/:name', routes.partials);
+
+// JSON API
+app.get('/api/searchThankful', api.searchThankful);
+
+// redirect all others to the index (HTML5 history)
+app.get('*', routes.index);
+
+
+/**
+ * Start Server
+ */
+
+var server = http.createServer(app).listen(app.get('port'), function() {
+  console.log('Express server listening on port ' + app.get('port'));
+});
+
+/**
+ * Start Socket
+ */
+
+var io = require('socket.io').listen(server);
+
+var stream = Twitter.stream('statuses/filter', { track: 'thankful', language: 'en'});
+io.sockets.on('connection', function (socket) {
+  stream.on('tweet', function (data) {
+        var tweet = {};
+        tweet.user_screen = data.user.screen_name;
+        tweet.username = data.user.name;
+        tweet.description = data.text;
+        tweet.profile_image_url = data.user.profile_image_url;
+        // console.log(tweet);
+        socket.emit('tweet', tweet);
+    });
+});
